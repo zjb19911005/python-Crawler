@@ -75,13 +75,15 @@ import re
 # response2=opener.open(testUrl)
 # print response2.read()
 
-import re
-import urllib
-import urllib2
-request=urllib2.Request('http://www.baidu.com/s?cid=qb7.zhuye&ie=utf-8&wd=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80')
-response=urllib2.urlopen(request)
-html=response.read()
-#print html
-news=re.compile(".+?\.王者荣耀.+?\.",re.S)
-newslist=re.findall(news,html)
-print newslist
+
+#正则表达式
+# import re
+# import urllib
+# import urllib2
+# request=urllib2.Request('http://www.baidu.com/s?cid=qb7.zhuye&ie=utf-8&wd=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80')
+# response=urllib2.urlopen(request)
+# html=response.read()
+# #print html
+# news=re.compile(".+?\.王者荣耀.+?\.",re.S)
+# newslist=re.findall(news,html)
+# print newslist
