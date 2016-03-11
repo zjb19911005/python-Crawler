@@ -75,7 +75,6 @@ import re
 # response2=opener.open(testUrl)
 # print response2.read()
 
-
 import re
 import urllib
 import urllib2
@@ -83,6 +82,6 @@ request=urllib2.Request('http://www.baidu.com/s?cid=qb7.zhuye&ie=utf-8&wd=%E7%8E
 response=urllib2.urlopen(request)
 html=response.read()
 #print html
-news=re.compile(".王者荣耀.",re.S)
+news=re.compile(".+?\.王者荣耀.+?\.",re.S)
 newslist=re.findall(news,html)
 print newslist
