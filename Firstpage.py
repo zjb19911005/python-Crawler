@@ -9,7 +9,7 @@ __author__ = 'Junior'
 
 #POST请求
 # header={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 QQBrowser/3.9.3943.400'}
-# values = {'username': 'zjb19911005', 'password': 'zhu2311829'}
+# values = {'username': 'XXXX', 'password': 'XXXXXX'}
 # data = url1.urlencode(values)
 # url = 'http://email.163.com/'
 # request = url2.Request(url, data,header)
