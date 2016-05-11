@@ -1,13 +1,9 @@
 #coding=utf-8
 #第一个tk程序
 import wx#导入wx模块
-import time
-class App(wx.App):
-
-    def OnInit(self):
-        frame=wx.Frame(parent =None,title='朱俊波个人APP')
-        frame.show()
-        return True
-        raw_input("please ")
-app=App()
+app=wx.App()
+frame =wx.Frame(None,-1,'Junior')
+panel= wx.Panel(f)
+btn =wx.Button(panel,-1,'zhu')
+frame.Show()
 app.MainLoop()
